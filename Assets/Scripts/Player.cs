@@ -15,6 +15,8 @@ public class Player : MonoBehaviour
     {
         _numSeedsLeft = _numSeeds;
         _numSeedsPlanted = 0;
+
+        _plantCountUI.UpdateSeeds(_numSeedsLeft, _numSeedsPlanted);
     }
 
     private void Update()
