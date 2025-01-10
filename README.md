@@ -46,7 +46,7 @@ In the function, Instantiate is used to plant a plant when the _numSeedsLeft is 
 I noticed in the game that the plants appear on top of the player so i ordered the layering to match that. 
 
 While coding, I referred to some of my codes, mostly from the blob battle and the final project assignments in 31. 
-The only time i got a bit stuck is when i forgot to attatch the event system to the player and the UI wasn't updating but i quickly realized it after seeing the error messages.
+Some issues i ran into is when i forgot to attatch the event system to the player and the UI wasn't updating but i quickly realized it after seeing the error messages. I also didn't remember including Quaternion in Instantiate for rotation. As well as not converting int to string in the UpdateSeeds function for updating UI.
 
 ## Open-Source Assets
 If you added any other outside assets, list them here!
