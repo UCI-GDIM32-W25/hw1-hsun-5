@@ -13,7 +13,8 @@ public class Player : MonoBehaviour
 
     private void Start ()
     {
-        
+        _numSeedsLeft = _numSeeds;
+        _numSeedsPlanted = 0;
     }
 
     private void Update()
