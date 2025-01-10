@@ -41,7 +41,7 @@ Write your Devlog here!
 In the class notes, we said player actions include movement with WASD keys and planting with the space key. 
 This is done by the update function in player script that updates each frame while the game runs.
 There are 4 if statements indicating each key press for movement and 1 if statement that differ a bit because it uses GetKeyDown because it does not require user to hold key down. 
-The PlantSeed function is called in the if statement so a seed can be placed when space is pressed
+The PlantSeed function is called in the if statement (when space is pressed) so a seed can be placed when space is pressed
 In the function, Instantiate is used to plant a plant when the _numSeedsLeft is greater than 0(as indicated in our notes), number of seed left and seeds planted is updated as one decrease and the other increase, and the UI is updated referring to the UpdateSeeds function in the PlantCountUI script where the number parts of the UI is updated.
 I noticed in the game that the plants appear on top of the player so i ordered the layering to match that. 
 
