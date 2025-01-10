@@ -9,6 +9,6 @@ public class PlantCountUI : MonoBehaviour
     public void UpdateSeeds (int seedsLeft, int seedsPlanted)
     {
         _plantedText.text = $"{seedsPlanted}";
-        _remainingText.text = $"{seedsLeft}"; //convert both int to text
+        _remainingText.text = $"{seedsLeft}";
     }
 }
