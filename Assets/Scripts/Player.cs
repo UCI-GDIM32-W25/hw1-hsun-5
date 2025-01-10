@@ -13,10 +13,10 @@ public class Player : MonoBehaviour
 
     private void Start ()
     {
-        _numSeedsLeft = _numSeeds;
+        _numSeedsLeft = _numSeeds; 
         _numSeedsPlanted = 0;
 
-        _plantCountUI.UpdateSeeds(_numSeedsLeft, _numSeedsPlanted);
+        _plantCountUI.UpdateSeeds(_numSeedsLeft, _numSeedsPlanted); //error occured when it wasn't displaying initially so i added this to start but it was actually another error with event system
     }
 
     private void Update()
